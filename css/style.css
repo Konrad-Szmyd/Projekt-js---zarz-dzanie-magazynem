@@ -1,0 +1,165 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content   {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_data{
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .product_data--Title{
+    
+} */
+
+.product_data--inputs{
+    /* background-color: red; */
+    padding-left: 6rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.input{
+    width: 30%;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.button{
+    border: none;
+    background-color: rgb(63, 112, 218);
+    padding: .5rem 1rem; 
+}
+.button:hover{
+    opacity: .8;
+}
+
+
+.button--del{
+    background-color: rgba(221, 96, 96, 0.753);
+    border: none;
+    padding: .5rem 1rem;
+}
+.button--del:hover{
+    opacity: .8;
+}
+
+
+.pageTitle{
+    width: 100%;
+    margin-top: 12rem;
+    text-align: center;
+}
+.pageTitle--product{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.chooseMagazine{
+    
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.chooseMagazin__product{
+    margin-right: 3rem;
+
+}
+.chooseMagazin__category{
+    margin-left: 3rem;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.chooseMagazin__slash{
+    font-size: 2rem ;
+}
+
+.show__data{
+    margin-top: 2rem;
+    border :  1px solid black;
+}
+
+/* th{
+    padding: .5rem 1rem;
+    border: 1px solid;
+} */
+
+td , th{
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.product__edit, .category__edit{
+    /* display: none; */
+    padding-left: 6rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    display: none;
+}
+
+.product__edit--button, .product__edit--close, .category__edit--button, .category__edit--close {
+    margin-top: 1.5rem;
+    padding: .5 1rem;
+    /* display: none; */
+    
+}
+
+.product__edit--close, .category__edit--close{
+    margin-left: 1rem;
+}
+
+
+.editButtonsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryData{
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

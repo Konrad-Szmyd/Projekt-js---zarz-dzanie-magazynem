@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title class="asdfg">Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">  
+            <div class="pageTitle--product"><h1>Zarządzanie kategoriami</h1></div>
+            <div class="categoryData">
+                <div class="product_data--Title">Dane kategorii</div>
+                <div class="product_data--inputs">
+                    <div class="input">
+                        <label for="categoryId">Podaj id</label>
+                        <input type="number" name="login" id="categoryId" />
+                    </div>
+
+                    <div class="input">
+                        <label for="categoryName">Wpisz nazwe</label>
+                        <input type="text" name="login" id="categoryName" />
+                    </div>
+
+                    <div class="input">
+                        <label for="categoryAbout">Opcjonalny opis</label>
+                        <input type="text" name="login" id="categoryAbout" />
+                    </div>
+
+                </div>
+                <div class="category_data--buttons">
+                    <button class="button buttonCategoryShow">Pokaż wszystkie</button>
+                    <button class="button buttonCategorySearch">Szukaj</button>
+                    <button class="button buttonCategoryAdd">Dodaj</button>
+                    <button class="button--del buttonCategoryDel">Usuń</button>
+                    <button class="button buttonCategoryEdit">Edycja</button>
+                </div>
+            </div>
+        </div>
+        <div class="category__edit">
+            <div class="input disabled">
+                <label for="categoryIdEdit"> Id</label>
+                <input type="text" name="login" id="categoryIdEdit" disabled/>
+            </div>
+
+            <div class="input">
+                <label for="categoryNameEdit">Wpisz nazwe</label>
+                <input type="text" name="login" id="categoryNameEdit" />
+            </div>
+
+            <div class="input">
+                <label for="categoryAboutEdit">Opcjonalny opis</label>
+                <input type="text" name="login" id="categoryAboutEdit" />
+            </div>
+            <div class="editButtonsContainer">
+                <div class="category__edit--button button">
+                    <button class="button editButton">Zapisz</button>
+                </div>
+                <div class="category__edit--close button">
+                    <button class="button">Zamknij</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="show__data">
+            <table class="category__table">
+                <tr>
+                    <th>ID</th>
+                    <th>Nazwa</th>
+                    <th>Opis</th>
+                </tr>
+
+            </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/category.js"></script>
+    <!-- <script src="../js/scripts.js"></script> -->
+</body>
+</html>

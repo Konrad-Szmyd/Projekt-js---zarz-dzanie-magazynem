@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Product Managment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="pageTitle--product"><h1>Zarządzanie produktami</h1></div>
+            <div class="product_data">
+                <div class="product_data--Title">Dane produktu</div>
+                <div class="product_data--inputs">
+
+                    <div class="input">
+                        <label for="productId">Podaj id</label>
+                        <input type="number" name="login" id="productId" />
+                    </div>
+
+                    <div class="input">
+                        <label for="productName">Wpisz nazwe</label>
+                        <input type="text" name="login" id="productName" />
+                    </div>
+
+                    <div class="input inputSelect">
+                        <span>Wybierz kategorię </span>
+                          
+                    </div>
+                    <!-- <div class="input">
+                        <label for="productCategory">Wpisz kategorię</label>
+                        <input type="text" name="login" id="productCategory" />  
+                    </div> -->
+                    
+                    <div class="input">
+                        <label for="productAmount">Wpisz ilość</label>
+                        <input type="number" name="login" id="productAmount" />
+                    </div>
+
+                    <div class="input">
+                        <label for="productPrice">Wpisz cenę</label>
+                        <input type="number" name="login" id="productPrice" />
+                    </div>
+
+                    <div class="input">
+                        <label for="productAbout">Opcjonalny opis</label>
+                        <input type="text" name="login" id="productAbout" />
+                    </div>
+                </div>
+                <div class="product_data--buttons">
+                    <button class="button buttonShow">Pokaż wszystkie</button>
+                    <button class="button buttonSearch">Szukaj</button>
+                    <button class="button buttonAdd">Dodaj</button>
+                    <button class="button--del buttonDel">Usuń</button>
+                    <button class="button buttonEdit">Edycja</button>
+                </div>
+            </div>
+        </div>
+        <div class="product__edit">
+            <div class="input disabled">
+                <label for="productIdEdit"> Id</label>
+                <input type="text" name="login" id="productIdEdit" disabled/>
+            </div>
+
+            <div class="input">
+                <label for="productNameEdit">Wpisz nazwe</label>
+                <input type="text" name="login" id="productNameEdit" />
+            </div>
+
+            <div class="input inputEditSelect">
+                <span>Wybierz kategorię </span>
+                  
+            </div>
+           
+            <!-- <div class="input">
+                <label for="productCategoryEdit">Wpisz kategorię</label>
+                <input type="text" name="login" id="productCategoryEdit" />  
+            </div> -->
+
+
+            
+            <div class="input">
+                <label for="productAmountEdit">Wpisz ilość</label>
+                <input type="text" name="login" id="productAmountEdit" />
+            </div>
+
+            <div class="input">
+                <label for="productPriceEdit">Wpisz cenę</label>
+                <input type="text" name="login" id="productPriceEdit" />
+            </div>
+
+            <div class="input">
+                <label for="productAboutEdit">Opcjonalny opis</label>
+                <input type="text" name="login" id="productAboutEdit" />
+            </div>
+            <div class="editButtonsContainer">
+                <div class="product__edit--button button">
+                    <button class="button editButton">Zapisz</button>
+                </div>
+                <div class="product__edit--close button">
+                    <button class="button">Zamknij</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="show__data">
+            <table class="product__table">
+                <tr>
+                    <th>ID</th>
+                    <th>Nazwa</th>
+                    <th>Kategoria</th>
+                    <th>Ilość</th>
+                    <th>Cena</th>
+                    <th>Opis</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <!-- <div class="selectt"></div> -->
+    <!-- <div class="test3"></div> -->
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
